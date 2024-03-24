@@ -1,3 +1,5 @@
+## [GitHub](https://github.com/Suraj-Razor/Hospital_API)
+
 # R1 Identification of the problem you are trying to solve by building this particular app.
 
 The development of this particular application addresses critical challenges inherent in the efficient management of healthcare services, appointment scheduling, user data administration, and financial transactions within a medical infrastructure. The objectives of the application are delineated as follows:
@@ -457,7 +459,7 @@ In conclusion, ORM frameworks offer a wide range of functionalities and benefits
 
 # R6 An ERD for your app
 
-![Alt Text](./docs/ERD.png)
+![ERD](./docs/ERD.png)
 
 # R7 Detail any third party services that your app will use
 
@@ -702,8 +704,9 @@ These database relations ensure that our application can effectively manage data
 
 # R10 Describe the way tasks are allocated and tracked in your project
 
-[Hospital Task Tracking](https://trello.com/invite/b/Wgq4c4vv/ATTI7b40097fcecb401489fe82c269d6d07123BC13A5/hospital-api)
-[GitHub](https://trello.com/invite/b/Wgq4c4vv/ATTI7b40097fcecb401489fe82c269d6d07123BC13A5/hospital-api)
+## [Hospital Task Tracking](https://trello.com/invite/b/Wgq4c4vv/ATTI7b40097fcecb401489fe82c269d6d07123BC13A5/hospital-api)
+
+![Trello Board](./docs/Trello.png)
 
 I've organized the project tasks into three main buckets: "Task," "Work in Progress," and "Completed."
 
