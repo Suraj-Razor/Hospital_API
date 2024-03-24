@@ -8,7 +8,6 @@ class Transaction(db.Model):
     GST = db.Column(db.Float, nullable = False)
     status = db.Column(db.String)
     total_fee = db.Column(db.Float, nullable = False)
-    
     booking_id = db.Column(db.Integer, db.ForeignKey("booking.id"), nullable = False)
 
     booking = db.relationship("Booking", back_populates = "transaction")

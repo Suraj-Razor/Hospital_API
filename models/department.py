@@ -2,8 +2,6 @@ from init import db, ma
 from datetime import date
 from marshmallow import fields
 
-SPECIALTIES = [""]
-
 class Department(db.Model):
     __tablename__ = "department"
     id = db.Column(db.Integer, primary_key = True)

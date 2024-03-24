@@ -8,7 +8,6 @@ class Doctor(db.Model):
     registration_expiry = db.Column(db.Date, nullable = False)
     consultation_fee = db.Column(db.Float, nullable = False)
     department_id = db.Column(db.Integer, db.ForeignKey("department.id"), nullable=False)
-    # booking_id = db.Column(db.Integer, db.ForeignKey("booking.id"))
 
     department = db.relationship("Department", back_populates = "doctor")
     booking = db.relationship("Booking", back_populates = "doctor", cascade = ["all","delete"])

@@ -8,6 +8,7 @@ class Booking(db.Model):
     status = db.Column(db.String, default = "Booked")
     user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable = False)
     doctor_id = db.Column(db.Integer, db.ForeignKey("doctor.id"), nullable = False)
+    
     user = db.relationship("User", back_populates = "booking")
     doctor = db.relationship("Doctor", back_populates = "booking")
     transaction = db.relationship("Transaction", back_populates = "booking", cascade= ["all","delete"])
