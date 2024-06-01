@@ -1,7 +1,3 @@
-## [GitHub](https://github.com/Suraj-Razor/Hospital_API)
-
-# R5 Document all endpoints for your API
-
 # Doctor Endpoints
 
 ## Get all doctors
